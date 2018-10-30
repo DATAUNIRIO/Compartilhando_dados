@@ -58,7 +58,7 @@ Se você estiver compartilhando seus dados com o colaborador no Excel, os dados 
 
 Para quase todos os conjuntos de dados, as mensurações calculadas precisarão ser descritas com mais detalhes do que você pode ou deve entrar na planilha. O Dicionário de Dados contém esta informação. No mínimo, deve conter:
 
-  *   Informações sobre as variáveis (incluindo as  unidades!) No conjunto de dados não contido nos dados arrumados.
+  *  Informações sobre as variáveis (incluindo as  unidades!) No conjunto de dados não contido nos dados arrumados.
   *  Informações sobre as escolhas que você fez.
   *  Informações sobre o desenho do estudo experimental que você usou.
 
@@ -93,11 +93,11 @@ O ideal é criar um script de computador (em R, Python ou qualquer outra coisa) 
 
 Em muitos casos, a pessoa que coletou os dados tem incentivo para tornar mais fácil para um estatístico acelerar o processo de colaboração. Eles podem não saber como codificar em uma linguagem como o R ou o Python. Nesse caso,  o que você deve fornecer ao estatístico é algo chamado pseudocódigo. Deve ser algo como:
 
-    Passo 1 - pegue o arquivo bruto , execute a versão 3.1.2 do software resumido com parâmetros a = 1, b = 2, c = 3.
+    Etapa 1 - pegue o arquivo bruto , execute a versão 3.1.2 do software resumido com parâmetros a = 1, b = 2, c = 3.
     Etapa 2 - execute o software separadamente para cada amostra.
     Etapa 3 - obtenha a coluna três do outputfile.out para cada amostra e essa é a linha correspondente no conjunto de dados de saída.
 
-### O que você deve esperar do analista
+### O que você deve esperar do analista (estatístico)
 
 Quando você vira um conjunto de dados devidamente arrumado, diminui drasticamente a carga de trabalho do estatístico. Então, espero que eles voltem a você muito mais cedo. Mas os estatísticos mais cuidadosos verificarão sua receita, farão perguntas sobre as etapas realizadas e tentarão confirmar se podem obter os mesmos dados arrumados que você fez com, no mínimo, verificações no local.
 
